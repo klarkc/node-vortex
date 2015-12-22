@@ -1,48 +1,41 @@
 {
-	"name": "vortex",
-	"version": "1.0.12",
-	"author": "Websecurify <contact@websecurify.com>",
-	"description": "Virtual machine management toolkit.",
-	"license": "MIT",
-	
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/websecurify/node-vortex.git"
-	},
-	
-	"keywords": [
-		"virtual",
-		"virtualization",
-		"amazon",
-		"virtualbox"
-	],
-	
-	"main": "./lib/index.js",
-	
-	"bin": {
-		"vortex": "./bin/vortex"
-	},
-	
-	"directories": {
-		"lib": "./lib/"
-	},
-	
-	"dependencies": {
-		"portchecker": "0.1.2",
-		"node-getopt": "0.2.3",
-		"shell-quote": "1.3.3",
-		"path-extra": "0.1.1",
-		"progress2": "0.1.1",
-		"aws-sdk": "1.4.0",
-		"async": "0.2.9",
-		"vboxmanage": "0.0.15",
-		"logsmith": "0.0.2",
-		"roost": "1.0.12"
-	},
-	
-	"devDependencies": {
-		"grunt": "0.4.1",
-		"grunt-contrib-watch": "0.5.3",
-		"grunt-contrib-coffee": "0.7.0"
-	}
+  "name": "vortex",
+  "version": "1.0.12",
+  "author": "Websecurify <contact@websecurify.com>",
+  "description": "Virtual machine management toolkit.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/websecurify/node-vortex.git"
+  },
+  "keywords": [
+    "virtual",
+    "virtualization",
+    "amazon",
+    "virtualbox"
+  ],
+  "main": "./lib/index.js",
+  "bin": {
+    "vortex": "./bin/vortex"
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "dependencies": {
+    "async": "0.2.9",
+    "aws-sdk": "1.4.0",
+    "logsmith": "0.0.2",
+    "node-getopt": "0.2.3",
+    "path-extra": "0.1.1",
+    "portchecker": "0.1.2",
+    "progress2": "0.1.1",
+    "roost": "1.0.12",
+    "shell-quote": "1.3.3",
+    "vboxmanage": "git+https://github.com/klarkc/node-vboxmanage.git"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-contrib-coffee": "0.7.0"
+  }
 }
